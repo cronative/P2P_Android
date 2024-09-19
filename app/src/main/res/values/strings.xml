@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Seguniversesapplication1</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_continue">Continue</string>
+  <string name="lbl_now_playing">Now Playing</string>
+  <string name="lbl_payout">Payout</string>
+  <string name="msg_current_balance">Current Balance:
+</string>
+  <string name="lbl_live_now">LIVE NOW!</string>
+  <string name="lbl_50_00">$50.00</string>
+  <string name="msg_live_performance">Live Performance Ticket</string>
+  <string name="lbl_vote">VOTE</string>
+  <string name="lbl_9_99">$9.99
+</string>
+  <string name="lbl_reset_password">Reset Password</string>
+  <string name="lbl_phone">Phone</string>
+  <string name="lbl_live">Live</string>
+  <string name="msg_share_your_thoughts">Share your thoughts</string>
+  <string name="msg_don_t_have_an_account">Don\u2019t have an account?</string>
+  <string name="msg_already_have_an">Already have an account? Sign In</string>
+  <string name="msg_what_a_lovely_song">What a lovely song</string>
+  <string name="msg_confirm_password">Confirm Password</string>
+  <string name="msg_if_you_need_help">If you need help resetting your password, we can help
+by sending you a link to reset it.</string>
+  <string name="lbl_performers">PERFORMERS</string>
+  <string name="lbl_add_funds">ADD FUNDS</string>
+  <string name="lbl_12_hours">12
+Hours</string>
+  <string name="lbl_sign_in">Sign in</string>
+  <string name="lbl_payment_options">Payment Options</string>
+  <string name="msg_9_99_get_500_phace">$9.99
+Get 500 PHACE coins</string>
+  <string name="msg_brittney_burnett">Brittney Burnett</string>
+  <string name="lbl_pay_now">PAY NOW</string>
+  <string name="msg_enjoy_the_concert">Enjoy the concert!
+
+</string>
+  <string name="msg_enter_your_comment">Enter your comment</string>
+  <string name="msg_forgot_password">Forgot Password?</string>
+  <string name="msg_discover_new_music">Discover new music...</string>
+  <string name="lbl_almost_done">Almost done</string>
+  <string name="msg_amazing_voice">Amazing voice....
+
+</string>
+  <string name="msg_verify_phone_number">Verify
+phone number</string>
+  <string name="lbl_wallet_balance">Wallet Balance</string>
+  <string name="lbl_30_seconds">30
+Seconds</string>
+  <string name="lbl_100_00">$100.00</string>
+  <string name="msg_add_your_bank_account">Add your bank
+account details</string>
+  <string name="lbl_42">42
+</string>
+  <string name="msg_join_us_for_an_unforgettanle">Join us for an unforgettanle night of music!</string>
+  <string name="lbl_artist_offer">Artist Offer
+</string>
+  <string name="msg_to_continue_enter_your">To continue enter
+your phone number</string>
+  <string name="lbl_like">LIKE</string>
+  <string name="msg_already_have_an2">Already have an account? </string>
+  <string name="lbl_resend_code">Resend Code</string>
+  <string name="lbl_30">30
+</string>
+  <string name="lbl_outdoor_anchor">Outdoor Anchor</string>
+  <string name="msg_concert_ticket_50_00">Concert Ticket
+$50.00</string>
+  <string name="msg_where_are_you_based">Where are you based?</string>
+  <string name="msg_artist_offer_20_00">Artist Offer
+$20.00</string>
+  <string name="lbl_password">Password</string>
+  <string name="lbl_or_connect_with">Or connect with</string>
+  <string name="lbl_07_days">07
+Days</string>
+  <string name="lbl_discover">Discover</string>
+  <string name="lbl_edward_cisneros">EDWARD CISNEROS
+</string>
+  <string name="msg_get_250_phace_coins">Get 250 PHACE coins</string>
+  <string name="msg_harry_shelton_september">HARRY SHELTON
+
+SEPTEMBER 25, 2024
+
+7:00 PM
+
+MUSIC HALL</string>
+  <string name="msg_current_balance_100_00">Current Balance:
+$100.00</string>
+  <string name="lbl_hours">Hours</string>
+  <string name="lbl_comment">COMMENT</string>
+  <string name="msg_please_enter_new">Please enter new password to sign in to your account.</string>
+  <string name="lbl_rising_star">Rising Star : </string>
+  <string name="lbl_seconds">Seconds</string>
+  <string name="lbl_join_me">Join me</string>
+  <string name="msg_edward_cisneros_outdoor">EDWARD CISNEROS
+Outdoor Anchor</string>
+  <string name="lbl_2_99">$2.99
+</string>
+  <string name="lbl_trending">TRENDING</string>
+  <string name="msg_stream_live_performances">Stream live performances</string>
+  <string name="lbl_5_99">$5.99
+</string>
+  <string name="msg_additional_details">Additional Details</string>
+  <string name="lbl_liked">liked
+</string>
+  <string name="lbl_days">Days</string>
+  <string name="lbl_42_minutes">42
+Minutes</string>
+  <string name="lbl_change_password">Change Password</string>
+  <string name="msg_subscription_packs">Subscription
+Packs</string>
+  <string name="msg_get_500_phace_coins">Get 500 PHACE coins</string>
+  <string name="msg_name_bank_account">Name
+Bank
+Account No.
+Swift</string>
+  <string name="lbl_12">12
+</string>
+  <string name="lbl_sign_up">Sign Up</string>
+  <string name="lbl_send">Send</string>
+  <string name="msg_please_verify_your">Please verify your phone number</string>
+  <string name="lbl_name">Name</string>
+  <string name="lbl_subscribe">Subscribe</string>
+  <string name="msg_don_t_have_an_account2">Don\u2019t have an account? Sign Up</string>
+  <string name="msg_your_support_matters">Your support matters</string>
+  <string name="lbl">+</string>
+  <string name="lbl_save">Save</string>
+  <string name="msg_congratulations">Congratulations on buying your
+digital ticket for the live performance!</string>
+  <string name="lbl_premium">Premium?!</string>
+  <string name="lbl_email">Email</string>
+  <string name="lbl_share">SHARE</string>
+  <string name="lbl_join">JOIN</string>
+  <string name="msg_get_100_phace_coins">Get 100 PHACE coins</string>
+  <string name="lbl_live_sessions">Live Sessions</string>
+  <string name="msg_how_old_are_you">How old are you?</string>
+  <string name="msg_most_voted_brittney">Most Voted
+Brittney Burnett</string>
+  <string name="lbl_07">07
+</string>
+  <string name="msg_live_performance2">Live Performance Details</string>
+  <string name="msg_rising_star_amazing">Rising Star : Amazing voice....
+
+Rising Star : liked
+
+Rising Star : Enjoy the concert!
+
+Rising Star : how was the atmosphere?
+
+Rising Star : What a lovely song</string>
+  <string name="lbl_minutes">Minutes</string>
+  <string name="lbl_exclusive">EXCLUSIVE</string>
+  <string name="lbl_concert_ticket">Concert Ticket
+</string>
+  <string name="msg_add_another_account">Add another account</string>
+  <string name="msg_how_was_the_atmosphere">how was the atmosphere?
+
+</string>
+  <string name="msg_countdown_to_live">Countdown to Live Performance</string>
+  <string name="msg_welcome_to_phace">Welcome to
+Phace II Phace</string>
+  <string name="lbl_most_voted">Most Voted
+</string>
+  <string name="lbl_more">More..</string>
+  <string name="msg_artist_date_time_venue">Artist
+
+Date
+
+Time
+
+Venue</string>
+  <string name="lbl_sign_in2">Sign In</string>
+  <string name="msg_connect_with_fans">Connect with fans</string>
+  <string name="msg_2_99_get_100_phace">$2.99
+Get 100 PHACE coins</string>
+  <string name="lbl_new">NEW</string>
+  <string name="msg_hannah_gullixson_bank">Hannah Gullixson
+Bank of America
+HS678RE987862BN118
+HSBC 6KS28</string>
+  <string name="msg_5_99_get_250_phace">$5.99
+Get 250 PHACE coins</string>
+  <string name="lbl_20_00">$20.00</string>
+</resources>

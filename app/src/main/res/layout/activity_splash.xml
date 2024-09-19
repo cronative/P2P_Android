@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:id="@+id/linearColumnwelcomeTo"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true"
+            android:gravity="center_horizontal"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearSplashview"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <TextView android:gravity="center_horizontal"
+                    android:id="@+id/txtWelcometo"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_1pxh"
+                    android:text="@string/msg_welcome_to_phace"
+                    style="@style/txtMontserratbold98" tools:text="@string/msg_welcome_to_phace"/>
+                <TextView android:gravity="center_horizontal"
+                    android:id="@+id/txtStreamlive"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_1pxh"
+                    android:text="@string/msg_stream_live_performances"
+                    style="@style/txtMontserratregular57" tools:text="@string/msg_stream_live_performances"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

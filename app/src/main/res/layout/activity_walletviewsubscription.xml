@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:id="@+id/linearColumnsubscription"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_15pxv"
+        android:paddingTop="@dimen/_15pxv" style="@style/groupStylewhite_5">
+        <androidx.appcompat.widget.Toolbar
+            android:gravity="center_horizontal"
+            android:id="@+id/toolbarNavigationbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:gravity="center_vertical"
+                android:id="@+id/linearRow"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageImage"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="@dimen/_22pxh"
+                    android:layout_width="@dimen/_47pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_group_86"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_group_86"/>
+                <ImageView android:id="@+id/imageImageOne"
+                    android:layout_gravity="top"
+                    android:layout_height="@dimen/_20pxh"
+                    android:layout_width="@dimen/_20pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_group_198"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_group_198"/>
+                <ImageView android:id="@+id/imageImageTwo"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="@dimen/_16pxh"
+                    android:layout_width="@dimen/_24pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_group_196"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_group_196"/>
+                <ImageView android:id="@+id/imageImageThree"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="@dimen/_58pxh"
+                    android:layout_width="@dimen/_58pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_group_194}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_group_194"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.core.widget.NestedScrollView
+            android:clipToPadding="false" android:fillViewport="true"
+            android:gravity="center_horizontal"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearWalletview"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/_54pxh" android:paddingStart="@dimen/_54pxh">
+                <TextView android:id="@+id/txtSubscription"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:letterSpacing="0.24"
+                    android:lineSpacingExtra="@dimen/_18pxh"
+                    android:text="@string/msg_subscription_packs"
+                    style="@style/txtMontserratbold40" tools:text="@string/msg_subscription_packs"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerSubscriptioncar"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:nestedScrollingEnabled="false"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    itemSpace="@{@dimen/_8pxh}" tools:itemCount="3" tools:listitem="@layout/row_subscriptioncar"/>
+                <TextView android:id="@+id/txtWalletbalance"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:letterSpacing="0.24"
+                    android:lineSpacingExtra="@dimen/_18pxh"
+                    android:text="@string/lbl_wallet_balance"
+                    style="@style/txtMontserratbold40" tools:text="@string/lbl_wallet_balance"/>
+                <LinearLayout android:gravity="center_vertical"
+                    android:id="@+id/linearRowprice"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/_40pxv"
+                    android:paddingEnd="@dimen/_31pxh"
+                    android:paddingStart="@dimen/_31pxh"
+                    android:paddingTop="@dimen/_40pxv" style="@style/groupStylecornerRadius">
+                    <TextView android:gravity="center_vertical"
+                        android:id="@+id/txtPrice"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:letterSpacing="0.25"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:text="@string/msg_current_balance_100_00"
+                        style="@style/txtMontserratbold57_2" tools:text="@string/msg_current_balance_100_00"/>
+                    <FrameLayout android:id="@+id/frameStackview"
+                        android:layout_gravity="bottom"
+                        android:layout_height="@dimen/_80pxv" android:layout_width="@dimen/_187pxh">
+                        <View
+                            android:background="@drawable/rectangle_bg_deep_purple_a400_radius_21"
+                            android:id="@+id/viewView"
+                            android:layout_gravity="top|center"
+                            android:layout_height="@dimen/_67pxv" android:layout_width="@dimen/_187pxh"/>
+                        <TextView android:gravity="top|center"
+                            android:id="@+id/txtAddfunds"
+                            android:layout_gravity="end"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:letterSpacing="0.2"
+                            android:lineSpacingExtra="@dimen/_7pxh"
+                            android:text="@string/lbl_add_funds"
+                            style="@style/txtMontserratbold33" tools:text="@string/lbl_add_funds"/>
+                    </FrameLayout>
+                </LinearLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtPaymentoptions"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:letterSpacing="0.24"
+                    android:lineSpacingExtra="@dimen/_9pxh"
+                    android:singleLine="true"
+                    android:text="@string/lbl_payment_options"
+                    style="@style/txtMontserratbold40" tools:text="@string/lbl_payment_options"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerTicketcard"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:nestedScrollingEnabled="false"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    itemSpace="@{@dimen/_73pxh}" tools:itemCount="2" tools:listitem="@layout/row_ticketcard"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <FrameLayout android:gravity="center_horizontal"
+            android:id="@+id/frameTabbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" style="@style/groupStyledeep_purple_A400cornerRadius">
+            <LinearLayout android:id="@+id/linearRowpathfiftynin"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imagePathfiftynine"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_34pxh"
+                    android:layout_width="@dimen/_34pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_path_59"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_path_59"/>
+                <ImageView android:id="@+id/imageImageFour"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_34pxh"
+                    android:layout_width="@dimen/_30pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_group_76"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_group_76"/>
+                <FrameLayout android:id="@+id/frameStack"
+                    android:layout_height="@dimen/_59pxv"
+                    android:layout_width="@dimen/_59pxh" style="@style/groupStylewhite_A700cornerRadius">
+                    <ImageView android:id="@+id/imageImageFive"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_59pxh"
+                        android:layout_width="@dimen/_59pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_group_204}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_group_204"/>
+                </FrameLayout>
+                <ImageView android:id="@+id/imageImageSix"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_34pxh"
+                    android:layout_width="@dimen/_42pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_group_79"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_group_79"/>
+                <ImageView android:id="@+id/imageImageSeven"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_34pxh"
+                    android:layout_width="@dimen/_30pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_group_199"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_group_199"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:id="@+id/linearColumnforgotPassword"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_1">
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true"
+            android:gravity="center_horizontal"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <FrameLayout android:id="@+id/frameStackforgotpass"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" style="@style/groupStylegray_100">
+                <TextView android:gravity="top|start"
+                    android:id="@+id/txtForgotpassword"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_5pxh"
+                    android:text="@string/msg_forgot_password"
+                    style="@style/txtMontserratbold77" tools:text="@string/msg_forgot_password"/>
+                <TextView android:id="@+id/txtEmail"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:letterSpacing="0.18"
+                    android:lineSpacingExtra="@dimen/_1pxh"
+                    android:text="@string/lbl_email"
+                    style="@style/txtMontserratblackitalic30" tools:text="@string/lbl_email"/>
+                <View android:background="@color/gray_900"
+                    android:id="@+id/lineLine"
+                    android:layout_gravity="top|center"
+                    android:layout_height="@dimen/_1pxv" android:layout_width="@dimen/_595pxh"/>
+                <View
+                    android:background="@drawable/rectangle_bg_deep_purple_a400_radius_33"
+                    android:id="@+id/viewView"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="@dimen/_67pxv" android:layout_width="@dimen/_596pxh"/>
+                <TextView android:id="@+id/txtSend"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:letterSpacing="0.18"
+                    android:lineSpacingExtra="@dimen/_6pxh"
+                    android:text="@string/lbl_send"
+                    style="@style/txtMontserratbold30" tools:text="@string/lbl_send"/>
+                <TextView android:id="@+id/txtDescription"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:letterSpacing="0.12"
+                    android:lineSpacingExtra="@dimen/_12pxh"
+                    android:text="@string/msg_if_you_need_help"
+                    style="@style/txtMontserratregular20" tools:text="@string/msg_if_you_need_help"/>
+                <LinearLayout android:id="@+id/linearRowpath183One"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/_78pxv"
+                    android:paddingEnd="@dimen/_227pxh"
+                    android:paddingStart="@dimen/_227pxh"
+                    android:paddingTop="@dimen/_78pxv" style="@style/groupStyle">
+                    <ImageView android:id="@+id/imagePath183One"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_width="@dimen/_30pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_path_216"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_path_216"/>
+                    <ImageView android:id="@+id/imagePath184One"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_width="@dimen/_25pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_path_217"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_path_217"/>
+                    <ImageView android:id="@+id/imagePath185One"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_width="@dimen/_29pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_path_218"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_path_218"/>
+                    <ImageView android:id="@+id/imagePath186One"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_width="@dimen/_26pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_path_219"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_path_219"/>
+                    <FrameLayout android:id="@+id/frameStackviewOne"
+                        android:layout_height="@dimen/_42pxv" android:layout_width="@dimen/_107pxh">
+                        <ImageView android:id="@+id/imageImage"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_42pxh"
+                            android:layout_width="@dimen/_64pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_group_298"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_group_298"/>
+                        <View android:background="@color/black_900"
+                            android:id="@+id/viewViewOne"
+                            android:layout_gravity="top|start"
+                            android:layout_height="@dimen/_5pxv" android:layout_width="@dimen/_25pxh"/>
+                        <View android:background="@color/black_900"
+                            android:id="@+id/viewViewTwo"
+                            android:layout_gravity="bottom|start"
+                            android:layout_height="@dimen/_5pxv" android:layout_width="@dimen/_25pxh"/>
+                        <View android:background="@color/black_900"
+                            android:id="@+id/viewViewThree"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_5pxv" android:layout_width="@dimen/_25pxh"/>
+                        <ImageView android:id="@+id/imagePath187One"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_24pxh"
+                            android:layout_width="@dimen/_30pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_path_216"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_path_216"/>
+                    </FrameLayout>
+                    <ImageView android:id="@+id/imagePath188One"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_width="@dimen/_25pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_path_217"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_path_217"/>
+                    <ImageView android:id="@+id/imagePath189One"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_width="@dimen/_29pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_path_218"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_path_218"/>
+                    <ImageView android:id="@+id/imagePath190One"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_width="@dimen/_26pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_path_219"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_path_219"/>
+                    <LinearLayout android:id="@+id/linearColumnviewFour"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content" android:orientation="vertical">
+                        <View android:background="@color/black_900"
+                            android:id="@+id/viewViewFour"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_5pxv" android:layout_width="@dimen/_25pxh"/>
+                        <View android:background="@color/black_900"
+                            android:id="@+id/viewViewFive"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_5pxv" android:layout_width="@dimen/_25pxh"/>
+                        <View android:background="@color/black_900"
+                            android:id="@+id/viewViewSix"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_5pxv" android:layout_width="@dimen/_25pxh"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

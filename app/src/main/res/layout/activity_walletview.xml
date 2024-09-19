@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:id="@+id/linearColumnpayout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_4">
+        <androidx.appcompat.widget.Toolbar
+            android:gravity="center_horizontal"
+            android:id="@+id/toolbarNavigationbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtPayout"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.18"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:singleLine="true"
+                android:text="@string/lbl_payout"
+                style="@style/txtMontserratregular30" tools:text="@string/lbl_payout"/>
+        </androidx.appcompat.widget.Toolbar>
+        <ScrollView android:clipToPadding="false"
+            android:fillViewport="true"
+            android:gravity="center_horizontal"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearPayoutview"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/_54pxh" android:paddingStart="@dimen/_54pxh">
+                <TextView android:id="@+id/txtAddyourbank"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:letterSpacing="0.24"
+                    android:lineSpacingExtra="@dimen/_18pxh"
+                    android:text="@string/msg_add_your_bank_account"
+                    style="@style/txtMontserratbold40" tools:text="@string/msg_add_your_bank_account"/>
+                <FrameLayout android:id="@+id/frameStackview"
+                    android:layout_height="1305dp" android:layout_width="@dimen/_691pxh">
+                    <View
+                        android:background="@drawable/rectangle_bg_deep_purple_a400_border_deep_purple_a400_radius_58"
+                        android:id="@+id/viewView"
+                        android:layout_gravity="top|center"
+                        android:layout_height="@dimen/_585pxv" android:layout_width="@dimen/_691pxh"/>
+                    <FrameLayout android:id="@+id/frameStackviewOne"
+                        android:layout_gravity="bottom|center"
+                        android:layout_height="@dimen/_147pxv"
+                        android:layout_width="@dimen/_691pxh"
+                        android:paddingBottom="@dimen/_24pxv"
+                        android:paddingEnd="@dimen/_69pxh"
+                        android:paddingTop="@dimen/_24pxv" style="@style/groupStyledeep_purple_1">
+                        <View
+                            android:background="@drawable/rectangle_bg_green_200_radius_21"
+                            android:id="@+id/viewViewOne"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_67pxh" android:layout_width="@dimen/_67pxh"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txt"
+                            android:layout_gravity="bottom|end"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:letterSpacing="0.36"
+                            android:lineSpacingExtra="@dimen/_14pxh"
+                            android:singleLine="true"
+                            android:text="@string/lbl"
+                            style="@style/txtMontserratbold59" tools:text="@string/lbl"/>
+                    </FrameLayout>
+                    <TextView android:id="@+id/txtAddanother"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:letterSpacing="0.24"
+                        android:lineSpacingExtra="@dimen/_18pxh"
+                        android:text="@string/msg_add_another_account"
+                        style="@style/txtMontserratregular40" tools:text="@string/msg_add_another_account"/>
+                    <TextView android:id="@+id/txtNamebank"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:letterSpacing="0.24"
+                        android:lineSpacingExtra="@dimen/_152pxh"
+                        android:text="@string/msg_name_bank_account"
+                        style="@style/txtMontserratregular40" tools:text="@string/msg_name_bank_account"/>
+                    <TextView android:gravity="top|end"
+                        android:id="@+id/txtDescription"
+                        android:layout_gravity="bottom|end"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:letterSpacing="0.24"
+                        android:lineSpacingExtra="@dimen/_152pxh"
+                        android:text="@string/msg_hannah_gullixson_bank"
+                        style="@style/txtMontserratbold40_1" tools:text="@string/msg_hannah_gullixson_bank"/>
+                    <LinearLayout android:id="@+id/linearColumnline"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content" android:orientation="vertical">
+                        <View android:background="@color/white_A700"
+                            android:id="@+id/lineLine"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_1pxv" android:layout_width="@dimen/_566pxh"/>
+                        <View android:background="@color/white_A700"
+                            android:id="@+id/lineLineOne"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_1pxv" android:layout_width="@dimen/_566pxh"/>
+                        <View android:background="@color/white_A700"
+                            android:id="@+id/lineLineTwo"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="@dimen/_1pxv" android:layout_width="@dimen/_566pxh"/>
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnSave"
+                        android:layout_gravity="bottom|center"
+                        android:layout_height="@dimen/_67pxv"
+                        android:layout_width="@dimen/_596pxh"
+                        android:letterSpacing="0.18"
+                        android:lineSpacingExtra="@dimen/_7pxh"
+                        android:paddingBottom="@dimen/_15pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_15pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_save"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_1" tools:text="@string/lbl_save"/>
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

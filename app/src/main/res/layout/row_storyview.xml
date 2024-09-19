@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:id="@+id/linearColumnjoinOne"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:orientation="vertical">
+        <ImageView android:id="@+id/imageJoinOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_93pxh"
+            android:layout_width="@dimen/_93pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_group_89}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_group_89"/>
+        <TextView android:id="@+id/txtJoinTwo"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:letterSpacing="0.12"
+            android:lineSpacingExtra="@dimen/_12pxh"
+            android:text="@string/lbl_join"
+            style="@style/txtMontserratbold20" tools:text="@string/lbl_join"/>
+    </LinearLayout>
+</layout>

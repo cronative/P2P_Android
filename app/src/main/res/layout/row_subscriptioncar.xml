@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <FrameLayout android:id="@+id/frameSubscriptioncar"
+        android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TextView android:id="@+id/txtTitle"
+            android:layout_gravity="bottom|start"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:letterSpacing="0.06"
+            android:lineSpacingExtra="@dimen/_56pxh"
+            android:text="@string/msg_2_99_get_100_phace"
+            style="@style/txtMontserratbold57_1" tools:text="@string/msg_2_99_get_100_phace"/>
+        <FrameLayout android:id="@+id/frameStack"
+            android:layout_gravity="top|center"
+            android:layout_height="@dimen/_323pxv" android:layout_width="@dimen/_691pxh">
+            <LinearLayout android:id="@+id/linearColumn"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_64pxv"
+                android:paddingEnd="@dimen/_66pxh"
+                android:paddingStart="@dimen/_66pxh"
+                android:paddingTop="@dimen/_64pxv" style="@style/groupStylewhite_6">
+                <ImageView android:id="@+id/imageImage"
+                    android:layout_height="@dimen/_83pxh"
+                    android:layout_width="@dimen/_79pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_group_43}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_group_43"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnButtonText"
+                android:layout_gravity="bottom|center"
+                android:layout_height="@dimen/_67pxv"
+                android:layout_width="@dimen/_623pxh"
+                android:letterSpacing="0.18"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:paddingBottom="@dimen/_15pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_15pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_subscribe"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_3" tools:text="@string/lbl_subscribe"/>
+        </FrameLayout>
+    </FrameLayout>
+</layout>

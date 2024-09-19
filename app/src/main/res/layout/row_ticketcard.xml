@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:gravity="center_vertical"
+        android:id="@+id/linearTicketcard"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/_40pxv"
+        android:paddingEnd="@dimen/_31pxh"
+        android:paddingStart="@dimen/_31pxh"
+        android:paddingTop="@dimen/_40pxv" style="@style/groupStylecornerRadius">
+        <TextView android:gravity="center_vertical"
+            android:id="@+id/txtTicketText"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.25"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:text="@string/msg_concert_ticket_50_00"
+            style="@style/txtMontserratbold57_3" tools:text="@string/msg_concert_ticket_50_00"/>
+        <FrameLayout android:id="@+id/frameStackrectanglev"
+            android:layout_gravity="bottom"
+            android:layout_height="@dimen/_80pxv" android:layout_width="@dimen/_187pxh">
+            <View
+                android:background="@drawable/rectangle_bg_green_200_radius_21"
+                android:id="@+id/viewRectangleView"
+                android:layout_gravity="top|center"
+                android:layout_height="@dimen/_67pxv" android:layout_width="@dimen/_187pxh"/>
+            <TextView android:gravity="top|center"
+                android:id="@+id/txtPayNowText"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.2"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:text="@string/lbl_pay_now"
+                style="@style/txtMontserratbold33_1" tools:text="@string/lbl_pay_now"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
